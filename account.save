@@ -1,0 +1,8 @@
+tls on
+tls_certcheck off
+auth on
+host smtp.gmail.com
+port 587
+user user1@gmail.com
+from user1@gmail.com
+password yourgmailPassw0rd

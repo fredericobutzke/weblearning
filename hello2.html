@@ -1,0 +1,96 @@
+<!-- Formatility writing by voluteers from the grupo W3C that is a standards group. If we want to write code with XHTML the code has to start with this. 
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/FR/xhtml1/DTD/xhtml1-transitional.dtd">
+-->
+
+
+<html xmlns = "http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<script type="text/javascript">
+
+		function onLoadFocus() {
+			document.getElementById('q_form2').focus();	
+		}
+
+	</script>
+
+	<!--We tell the browser that here comes a style sheet. Some browsers
+	are old or cannot understand this then we tell the browser that it can treat as a normal comment-->
+	<style type="text/css">
+	<!--
+		body
+		{
+			font-size : 56 ;
+			color : red;
+			background-color: #D0D0D0;
+		}
+
+		.copyright
+		{
+			font-size : 42 ;
+			color : black;
+		}
+
+		.form
+		{
+			font-size: 12 ;
+			color: black ;
+		}
+
+		.gbqfsf{
+			color:#222;	
+			font :20px arial,sans-serif;
+		}
+
+		#my_span
+		{
+			color : yellow;
+		}
+	-->
+	</style>
+	<title>Second Webpage</title>
+</head>
+
+<body bgcolor="#FFFFFF" onLoad="onLoadFocus()">
+	<center>
+		<b>Wellcome =)</b>
+		<br />
+		<span class="copyright">Span</span>
+		<br />
+		<span id="my_span"> Some sentence. </span>
+		<br />
+		<a href="http://www.google.com">Google</a><br />
+		<img src="350.GIF" />
+	</center>
+	<span class="gbqfsf">The First Form:</span>
+	<form class="form" action="query">
+			Email
+			<input name="email" type="text" /><br>
+			Password
+			<input name="password" type="password" /><br>
+			Save
+			<input name="save" type="checkbox" /><br>
+			RadioButton
+			<input name="gender" type="radio" value="F" />F
+			<input name="gender" type="radio" value="M" />M<br>
+			Select Box
+			<select name="box">
+				<option value="Value1">Value1</option>
+				<option value="Value2">Value2</option>
+				<option value="Value3">Value3</option>
+			</select><br>
+			<button type="submit">Submit</button>
+	</form>
+	<center>
+		<form class="gform" action="http://www.google.com/search">
+			<img src="logo11w.png" height="75px"/><br>
+			<input id="q_form2" name="q" type="text" class="gbqfsf" size=50/><br>
+			<button type="submit">Search</button>
+		</form>
+	</center>
+</body>
+
+</html>
